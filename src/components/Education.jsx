@@ -120,7 +120,7 @@ const Education = () => {
                   {courses.map((course) => (
                     <div 
                       key={course} 
-                      className="flex items-center space-x-3 p-3 rounded-xl bg-slate-100/50 dark:bg-slate-850/45 hover:bg-slate-100 dark:hover:bg-slate-850 transition-colors border border-slate-200/20 dark:border-slate-800/20"
+                      className="flex items-center space-x-3 p-3 rounded-xl bg-slate-100/50 dark:bg-slate-850/45 hover:bg-slate-100 dark:hover:bg-black transition-colors border border-slate-200/20 dark:border-slate-800/20"
                     >
                       <CheckCircle className="h-4 w-4 text-emerald-500 flex-shrink-0" />
                       <span className="text-xs sm:text-sm font-medium font-outfit text-slate-700 dark:text-white">

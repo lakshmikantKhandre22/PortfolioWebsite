@@ -102,7 +102,7 @@ const Contact = () => {
                     href={info.href}
                     target={info.href.startsWith('http') ? '_blank' : '_self'}
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-4 p-4 rounded-2xl bg-slate-100/50 dark:bg-slate-850/40 hover:bg-slate-100 dark:hover:bg-slate-850 transition-all border border-slate-200/20 dark:border-slate-800/20 group"
+                    className="flex items-center space-x-4 p-4 rounded-2xl bg-slate-100/50 dark:bg-slate-850/40 hover:bg-slate-100 dark:hover:bg-black transition-all border border-slate-200/20 dark:border-slate-800/20 group"
                   >
                     <div className="p-3 bg-white dark:bg-slate-800 rounded-xl group-hover:scale-105 transition-transform border border-slate-100 dark:border-slate-700/50">
                       {info.icon}
