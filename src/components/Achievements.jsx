@@ -1,5 +1,4 @@
-import React from 'react';
-import { Award, Code2, ShieldAlert, CheckCircle2, Trophy, ExternalLink, Calendar } from 'lucide-react';
+import { Award, Code2, CheckCircle2, Trophy, ExternalLink, Calendar } from 'lucide-react';
 import { motion as framerMotion } from 'framer-motion';
 
 const codingMetrics = [

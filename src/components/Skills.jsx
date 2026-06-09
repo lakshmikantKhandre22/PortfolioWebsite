@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Code, Layout, Server, Database, Key, ShieldCheck, Cpu, Terminal } from 'lucide-react';
+import { Code, Layout, Server, Database, Cpu } from 'lucide-react';
 
 const skillCategories = [
   {
@@ -22,6 +22,7 @@ const skillCategories = [
     icon: <Layout className="h-5 w-5 text-purple-500" />,
     skills: [
       { name: 'React.js', level: 92 },
+      { name: 'Next.js', level: 85 },
       { name: 'Tailwind CSS', level: 95 },
       { name: 'Redux Toolkit', level: 85 },
       { name: 'React Router', level: 90 },

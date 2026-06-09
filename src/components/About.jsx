@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Award, BookOpen, Layers } from 'lucide-react';
 
@@ -76,7 +75,7 @@ const About = () => {
             </p>
             
             <p className="text-base leading-relaxed font-sans">
-              My technical core lies in **React.js, Tailwind CSS, Node.js, Express, MongoDB, and SQL**. I specialize in clean MVC database design, robust backend logic, and integrating smart APIs (like Gemini AI) to build high-impact web products.
+              My technical core lies in **React.js, Next.js, Tailwind CSS, Node.js, Express, MongoDB, and SQL**. I specialize in clean MVC database design, robust backend logic, and integrating smart APIs (like Gemini AI) to build high-impact web products.
             </p>
 
             <p className="text-base leading-relaxed font-sans">

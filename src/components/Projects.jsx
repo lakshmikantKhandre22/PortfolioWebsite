@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, ArrowRight, Layers, Layout, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ExternalLink, Layers, Layout, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const projectsList = [
   {
@@ -18,7 +18,7 @@ const projectsList = [
       'Cloudinary image uploads for products'
     ],
     github: 'https://github.com/lakshmikantKhandre22/Ai_Powered_FullStack_Ecommerce_Website',
-    demo: 'https://shopsphere-ai.vercel.app',
+    demo: 'https://ai-powered-fullstack-ecommerce-website-fxdw.onrender.com',
     screenshots: [
       '/assets/projects/ecom1.png',
       '/assets/projects/ecom2.png',
@@ -27,6 +27,28 @@ const projectsList = [
   },
   {
     id: 2,
+    title: 'ExpenseTracker',
+    subtitle: 'AI Personal Finance & Wealth Management',
+    category: 'mern',
+    description: 'ExpenseTracker is a premium, full-stack personal finance and wealth management platform. It allows users to log transactions, structure category budgets with warning alerts, scan physical paper receipts with OCR parsing, view financial cash flow analytics, and consult with an AI wealth planner.',
+    tech: ['React.js', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Cloudinary', 'Recharts', 'Gemini AI'],
+    features: [
+      'Interactive AI Wealth Advisor Chatbot',
+      'Real-Time Budget Warnings & Alert Badges',
+      'Dynamic Recharts Financial Analytics',
+      'Receipt Scanning with OCR Parsing',
+      'Secure JWT Authentication & Session Handling'
+    ],
+    github: 'https://github.com/lakshmikantKhandre22/Ai-Expense-Tracker-FullStack',
+    demo: 'https://ai-expense-tracker-fullstack-1.onrender.com',
+    screenshots: [
+      '/assets/projects/expense1.png',
+      '/assets/projects/expense2.png',
+      '/assets/projects/expense3.png'
+    ]
+  },
+  {
+    id: 3,
     title: 'Airbnb Clone',
     subtitle: 'Full Stack MERN Vacation Rental Platform',
     category: 'mern',
@@ -40,14 +62,14 @@ const projectsList = [
       'Host Management Dashboard'
     ],
     github: 'https://github.com/lakshmikantKhandre22/AirbnbMernWebsite',
-    demo: 'https://airbnb-mern-clone.vercel.app',
+    demo: 'https://airbnbmernwebsite-1.onrender.com',
     screenshots: [
       '/assets/projects/air1.png',
       '/assets/projects/air2.png'
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'BlogApp',
     subtitle: 'Full Stack Blog Platform',
     category: 'mern',
@@ -61,14 +83,14 @@ const projectsList = [
       'Passport.js JWT authentication'
     ],
     github: 'https://github.com/lakshmikantKhandre22/FullStackBlogApp',
-    demo: 'https://blogapp-mern.vercel.app',
+    demo: 'https://fullstackblogapp-z7bi.onrender.com',
     screenshots: [
       '/assets/projects/Blog1.png',
       '/assets/projects/Blog2.png'
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'Weather App',
     subtitle: 'Simple React Weather Dashboard',
     category: 'react',
@@ -81,13 +103,13 @@ const projectsList = [
       'Responsive, mobile-first design'
     ],
     github: 'https://github.com/lakshmikantKhandre22/Simple-React-Weather-App',
-    demo: 'https://weather-react-simple.vercel.app',
+    demo: 'https://simple-react-weather-app-ochre.vercel.app',
     screenshots: [
       '/assets/projects/weather1.png'
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Todo App',
     subtitle: 'Interactive React Tasks Manager',
     category: 'react',
@@ -100,7 +122,7 @@ const projectsList = [
       'Sleek glassmorphism animations'
     ],
     github: 'https://github.com/lakshmikantKhandre22/simple-React-Todo-App',
-    demo: 'https://todo-react-simple.vercel.app',
+    demo: 'https://simple-react-todo-app-three.vercel.app',
     screenshots: [
       '/assets/projects/todo1.png'
     ]

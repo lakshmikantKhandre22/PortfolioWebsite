@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, GraduationCap, MapPin, Award, CheckCircle } from 'lucide-react';
 
