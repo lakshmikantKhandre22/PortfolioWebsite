@@ -40,7 +40,7 @@ const projectsList = [
       'Secure JWT Authentication & Session Handling'
     ],
     github: 'https://github.com/lakshmikantKhandre22/Ai-Expense-Tracker-FullStack',
-    demo: 'https://ai-expense-tracker-fullstack-1.onrender.com',
+    demo: 'https://ai-expense-tracker-fullstack-mern-1.onrender.com',
     screenshots: [
       '/assets/projects/expense1.png',
       '/assets/projects/expense2.png',
