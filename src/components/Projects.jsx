@@ -5,24 +5,24 @@ import { ExternalLink, Layers, Layout, ChevronLeft, ChevronRight } from 'lucide-
 const projectsList = [
   {
     id: 1,
-    title: 'ShopSphere',
-    subtitle: 'AI-Powered MERN E-Commerce Platform',
+    title: 'JobTrack',
+    subtitle: 'AI-Powered Job & Internship Tracker',
     category: 'mern',
-    description: 'A comprehensive full-stack e-commerce store integrated with a Gemini AI shopping assistant chatbot to help users search, compare, and get product recommendations in real time.',
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux Toolkit', 'Tailwind CSS', 'Razorpay', 'Cloudinary', 'Gemini AI'],
+    description: 'JobTrack is a full-stack MERN application that helps students and job seekers manage their entire job search in one place. Users can upload resumes, receive AI-powered resume analysis, compare resumes with job descriptions, track applications, and monitor interview progress through an interactive dashboard.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'JWT', 'Cloudinary', 'Gemini AI'],
     features: [
-      'Gemini AI Chatbot Shopping Assistant',
-      'Secure JWT Auth & Admin Dashboard',
-      'Razorpay Payment Gateway Integration',
-      'Cart, Wishlist, & Order Management',
-      'Cloudinary image uploads for products'
+      'AI Resume Analysis & ATS Resume Scoring',
+      'Resume vs Job Description Matching & AI Suggestions',
+      'Job & Internship Application Tracker with Analytics',
+      'Interview Scheduling & Reminders',
+      'Secure JWT Auth & Cloudinary Resume Storage'
     ],
-    github: 'https://github.com/lakshmikantKhandre22/Ai_Powered_FullStack_Ecommerce_Website',
-    demo: 'https://ai-powered-fullstack-ecommerce-website-fxdw.onrender.com',
+    github: 'https://github.com/lakshmikantKhandre22/JobTrack',
+    demo: 'https://jobtrack-2.onrender.com',
     screenshots: [
-      '/assets/projects/ecom1.png',
-      '/assets/projects/ecom2.png',
-      '/assets/projects/ecom3.png'
+      '/assets/projects/jobtrack1.png',
+      '/assets/projects/jobtrack2.png',
+      '/assets/projects/jobtrack3.png'
     ]
   },
   {
@@ -49,6 +49,28 @@ const projectsList = [
   },
   {
     id: 3,
+    title: 'ShopSphere',
+    subtitle: 'Full-Stack MERN E-Commerce Platform',
+    category: 'mern',
+    description: 'ShopSphere is a feature-rich full-stack MERN e-commerce application that enables users to browse products, manage shopping carts and wishlists, process payments securely, and monitor order histories through an intuitive dashboard.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux Toolkit', 'Tailwind CSS', 'Razorpay', 'Cloudinary', 'JWT'],
+    features: [
+      'Product Search, Filtering & Detail Pages',
+      'Secure JWT Auth & Admin Management Dashboard',
+      'Razorpay Payment Gateway Integration',
+      'Cart, Wishlist & Order History Management',
+      'Cloudinary Image Uploads for Product Catalog'
+    ],
+    github: 'https://github.com/lakshmikantKhandre22/Ai_Powered_FullStack_Ecommerce_Website',
+    demo: 'https://ai-powered-fullstack-ecommerce-website-fxdw.onrender.com',
+    screenshots: [
+      '/assets/projects/ecom1.png',
+      '/assets/projects/ecom2.png',
+      '/assets/projects/ecom3.png'
+    ]
+  },
+  {
+    id: 4,
     title: 'Airbnb Clone',
     subtitle: 'Full Stack MERN Vacation Rental Platform',
     category: 'mern',
@@ -69,7 +91,7 @@ const projectsList = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'BlogApp',
     subtitle: 'Full Stack Blog Platform',
     category: 'mern',
@@ -90,7 +112,7 @@ const projectsList = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Weather App',
     subtitle: 'Simple React Weather Dashboard',
     category: 'react',
@@ -106,25 +128,6 @@ const projectsList = [
     demo: 'https://simple-react-weather-app-ochre.vercel.app',
     screenshots: [
       '/assets/projects/weather1.png'
-    ]
-  },
-  {
-    id: 6,
-    title: 'Todo App',
-    subtitle: 'Interactive React Tasks Manager',
-    category: 'react',
-    description: 'A minimal, keyboard-accessible task management tool with interactive filters, subtasks, progress meters, and client-side data persistence.',
-    tech: ['React.js', 'Tailwind CSS', 'LocalStorage', 'CSS Grid'],
-    features: [
-      'LocalStorage state persistence',
-      'Active, completed & deleted filters',
-      'Interactive progress percentage',
-      'Sleek glassmorphism animations'
-    ],
-    github: 'https://github.com/lakshmikantKhandre22/simple-React-Todo-App',
-    demo: 'https://simple-react-todo-app-three.vercel.app',
-    screenshots: [
-      '/assets/projects/todo1.png'
     ]
   }
 ];
