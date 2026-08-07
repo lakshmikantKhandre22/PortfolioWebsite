@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Award, BookOpen, Layers } from 'lucide-react';
+import { Code2, Award, BookOpen, Layers, FileText } from 'lucide-react';
 
 const stats = [
   { 
@@ -86,6 +86,19 @@ const About = () => {
               <span className="italic font-sans text-slate-700 dark:text-white font-medium">
                 "Driven by curiosity, backed by structured problem-solving, and committed to engineering digital experiences that make an impact."
               </span>
+            </div>
+
+            <div className="pt-2">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Lakshmikant_Khandre_Resume.pdf"
+                className="inline-flex items-center space-x-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all shadow-md shadow-indigo-500/20 font-outfit"
+              >
+                <FileText className="h-5 w-5" />
+                <span>Download Resume</span>
+              </a>
             </div>
           </motion.div>
 

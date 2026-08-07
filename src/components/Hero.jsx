@@ -97,6 +97,8 @@ const Hero = () => {
               </a>
               <a 
                 href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 download="Lakshmikant_Khandre_Resume.pdf"
                 className="w-full sm:w-auto px-8 py-3.5 glass-card text-slate-800 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 rounded-xl font-semibold transition-all flex items-center justify-center space-x-2 text-base border border-slate-200 dark:border-slate-800 font-outfit"
               >
